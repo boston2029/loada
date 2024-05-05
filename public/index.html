@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <style>body{text-align:center}input{font-size:15pt}button{background:lime;border:2px solid black;border-radius:10px;padding:10px 20px;font-size:15pt;margin-top:5px;cursor:pointer;transition:background 0.15s ease,scale 0.15s ease}button:hover{background:limegreen;scale:1.1;}</style>
+</head>
+<body>
+  <input type="text" placeholder="Enter a YouTube video link"><br>
+  <button onclick="location.href='/video/'+document.querySelector('input').value.split('?v=')[1])">Play!</button>
+</body>
+</html>
